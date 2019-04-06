@@ -1,4 +1,2 @@
 const POSTGRESQL: string = 'postgresql';
-export {
-    POSTGRESQL,
-};
+export { POSTGRESQL };
