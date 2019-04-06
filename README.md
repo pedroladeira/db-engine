@@ -9,6 +9,18 @@ This package is currently in development
 * Add postgresql support (DEV)
 * Add mysql support (DEV)
 
+### Instalation
+
+install with npm
+```bash
+npm install jelly-db-engine
+```
+
+install with yarn
+```bash
+yarn add jelly-db-engine
+```
+
 ### Documentation
 
 connect to database
@@ -32,4 +44,18 @@ new DBEngine().connect(
             con.database).then((e: any) => {
                 console.log('connecting...', e);
             });
+```
+
+
+### About
+
+```javascript
+    if (foundSomeIssue) {
+        reportIssue();
+    }
+
+    reportIssue() {
+        iWillFixTheIssue();
+        console.log('Thanks for your help ;)'):
+    }
 ```
