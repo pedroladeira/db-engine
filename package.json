@@ -1,17 +1,25 @@
 {
-  "name": "db-engine",
-  "version": "0.0.1",
+  "name": "jelly-db-engine",
+  "version": "0.0.2",
   "description": "Engine for postgreSQL and MySQL databases",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "keywords": ["dbengine", "engine", "database", "orm", "postgres", "mysql", "mariadb"],
+  "keywords": [
+    "dbengine",
+    "engine",
+    "database",
+    "orm",
+    "postgres",
+    "mysql",
+    "mariadb"
+  ],
   "author": "pedroladeira",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "prepare" : "npm run build",
-    "version" : "git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "version": "git add -A src && git add README.md",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -26,8 +34,11 @@
     "typescript": "^3.4.2"
   },
   "dependencies": {
+    "@types/mysql": "^2.15.5",
     "@types/pg": "^7.4.14",
     "pg": "^7.9.0"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ]
 }

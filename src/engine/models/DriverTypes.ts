@@ -1,2 +1,7 @@
 const POSTGRESQL: string = 'postgresql';
-export { POSTGRESQL };
+const MYSQL: string = 'mysql';
+
+export { 
+    POSTGRESQL,
+    MYSQL
+};
