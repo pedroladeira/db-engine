@@ -45,17 +45,3 @@ new DBEngine().connect(
                 console.log('connecting...', e);
             });
 ```
-
-
-### About
-
-```javascript
-    if (foundSomeIssue) {
-        reportIssue();
-    }
-
-    reportIssue() {
-        iWillFixTheIssue();
-        console.log('Thanks for your help ;)'):
-    }
-```
