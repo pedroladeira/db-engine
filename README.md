@@ -23,6 +23,10 @@ yarn add jelly-db-engine
 
 ### Documentation
 
+connection type
+* postgresql
+* mysql
+
 connect to database
 
 ```javascript
