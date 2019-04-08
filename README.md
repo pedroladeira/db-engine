@@ -11,23 +11,23 @@ This package is currently in development
 
 ### Instalation
 
-- install with npm
+install with npm
 ```bash
 npm install jelly-db-engine
 ```
 
-- install with yarn
+install with yarn
 ```bash
 yarn add jelly-db-engine
 ```
 
 ### Documentation
 
-- connection type
+connection type
 * postgresql
 * mysql
 
-- connect to database
+connect to database
 
 ```javascript
 const con = {
