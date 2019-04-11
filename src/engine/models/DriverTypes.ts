@@ -3,5 +3,5 @@ const MYSQL: string = 'mysql';
 
 export { 
     POSTGRESQL,
-    MYSQL
+    MYSQL,
 };
