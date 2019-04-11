@@ -23,6 +23,10 @@ yarn add jelly-db-engine
 
 ### Documentation
 
+connection type
+* postgresql
+* mysql
+
 connect to database
 
 ```javascript
@@ -44,18 +48,4 @@ new DBEngine().connect(
             con.database).then((e: any) => {
                 console.log('connecting...', e);
             });
-```
-
-
-### About
-
-```javascript
-    if (foundSomeIssue) {
-        reportIssue();
-    }
-
-    reportIssue() {
-        iWillFixTheIssue();
-        console.log('Thanks for your help ;)'):
-    }
 ```
