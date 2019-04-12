@@ -65,6 +65,10 @@ export default class AbstractDriver {
         });
     }
 
+    public isConnected(): boolean {
+        return false;
+    }
+
     public query(q: string): Promise<any> {
         return new Promise<any>(() => {
             //

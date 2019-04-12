@@ -83,4 +83,8 @@ export default class DriverPostgreSQL extends AbstractDriver {
     public destroyConnection(): void {
         //
     }
+
+    public isConnected(): boolean {
+        return this.client ? true : false;
+    }
 }

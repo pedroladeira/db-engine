@@ -87,7 +87,11 @@ export default class DriverMySQL extends AbstractDriver {
         if (this.client) {
             this.client.destroy();
         }
-    }    
+    }
+
+    public isConnected(): boolean {
+        return this.client ? true : false;
+    }
 
     public query(q: string): Promise<any> {
         const self = this;
